@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Cake toppers website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>World's Finest Toppers</h1>
+    <p>Bringing life and adding colour to celebrations.</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+
+</div>
+
+    </section>
+
+<!----Services-->
+
+<section class="services">
+    <h1>Services We Offer</h1>
+    <p>Cake toppers for any occassions; weddings, anniversaries, birthdays, baby showers, graduations and so many more cake involved occassions.</p>
+
+    <div class="row">
+        <div class="services-col">
+            <h3>Aclyric Toppers</h3>
+            <p>We offer different types of aclyric materials on toppers. Gold, black, and silver. Aclyrics are great for their stability and are longlasting.</p>
+            
+        </div>
+        <div class="services-col">
+            <h3>Themed Paper Toppers</h3>
+            <p>We customize any theme of cartoons, e.g Frozen, sofia the first, cinderalla, spiderman, and more based on the customers likes.</p>
+            
+        </div>
+        <div class="services-col">
+            <h3>Glitter Paper Toppers</h3>
+            <p>We have different types of glitter papers,i.e. silver, gold,black, pink,purple, also depending on the theme color of your cakes. prefferably for adult toppers or 3D toppers.</p>
+            
+        </div>
+    </div>
+
+</section>
+<!---Work-->
+
+<section class="work">
+    <h1>Our Work</h1>
+    <p>Meet the magic hands that add color and life to your celebrations.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="pictures/IMG-20230717-WA0066.jpg">
+            <div class="layer">
+                <h3>ACLYRIC TOPPER</h3>
+            </div>
+
+        </div>
+        <div class="campus-col">
+            <img src="pictures/IMG-20230717-WA0069.jpg">
+            <div class="layer">
+                <h3>THEMED PAPER</h3>
+            </div>
+
+        </div>
+        <div class="campus-col">
+            <img src="pictures/IMG-20230717-WA0055.jpg">
+            <div class="layer">
+                <h3>GLITTER PAPER</h3>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!---Call to action-->
+<section class="cta">
+    <h1>Make your various orders from anywhere in Kenya.</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!---about us-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are the world's finest toppers, once you have a taste of us there is no going back.</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+</section>
+<!------Java script for toggle menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
