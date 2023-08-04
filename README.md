@@ -1,10 +1,10 @@
 # Creamy-creations-1.0🍰:
 ## Table of Contents
--About Us
--Our Cakes
--Ordering
--Contact Us
--License
+1. About Us
+2. Our Cakes
+3. Ordering
+4. Contact Us
+5. License
 ## About Us
 At Creamy Creations, we take pride in creating exquisite cakes that not only look stunning but also taste divine. Our team of talented bakers and decorators brings years of experience and passion to craft unique cakes that will leave you craving for more.
 
